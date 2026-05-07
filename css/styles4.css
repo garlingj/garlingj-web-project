@@ -1,0 +1,33 @@
+body {
+    background-color: #518f28;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 { color: #2c3e50; }
+h2 { color: #2980b9; }
+
+/* Navigation */
+nav {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Responsiveness: Media Query */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
