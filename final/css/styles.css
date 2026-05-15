@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-  color: white;
+  color: rgb(138, 13, 13);
 }
 
 .nav-links {
@@ -46,7 +46,7 @@ body {
   background:
     linear-gradient(rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)),
-    url('../images/solar.jpg');
+    url('../images/Harnessing-the-Sun.jpg');
 
   background-size: cover;
   color: white;
@@ -62,7 +62,7 @@ body {
   margin-top: 20px;
   padding: 12px 25px;
   background: #16a34a;
-  color: white;
+  color: rgb(180, 34, 149);
   text-decoration: none;
   border-radius: 8px;
 }
@@ -96,7 +96,7 @@ body {
 .page-header {
   text-align: center;
   padding: 50px 20px;
-  background: #d1fae5;
+  background: #eebd8e;
 }
 
 .timeline {
@@ -121,8 +121,8 @@ form textarea {
 }
 
 .high-contrast {
-  background: black !important;
-  color: yellow !important;
+  background: rgb(10, 198, 255) !important;
+  color: rgb(189, 189, 91) !important;
 }
 
 @media (max-width: 768px) {
@@ -143,7 +143,7 @@ form textarea {
     display: block;
     background: none;
     border: none;
-    color: white;
+    color: rgb(255, 0, 149);
     font-size: 2rem;
   }
 
