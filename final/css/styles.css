@@ -150,4 +150,13 @@ form textarea {
   .hero h2 {
     font-size: 2rem;
   }
+
+  footer {
+  background: #022c22;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 0.95rem;
+}
+
 }
