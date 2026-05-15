@@ -1,0 +1,170 @@
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4fff7;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #065f46;
+  padding: 15px 10%;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* HERO */
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url('../images/solar.jpg');
+
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #16a34a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* CARDS */
+
+.card-container {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+  padding: 40px 10%;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* PAGE HEADER */
+
+.page-header {
+  text-align: center;
+  padding: 50px 20px;
+  background: #d1fae5;
+}
+
+/* TIMELINE */
+
+.timeline {
+  padding: 50px 10%;
+}
+
+.timeline-item {
+  border-left: 4px solid green;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+
+.contact-container {
+  padding: 40px 10%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* ACCESSIBILITY */
+
+.high-contrast {
+  background: black !important;
+  color: yellow !important;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #065f46;
+    padding: 20px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+}
