@@ -1,4 +1,3 @@
-// MOBILE MENU
 
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
@@ -9,8 +8,6 @@ if (menuToggle) {
   });
 }
 
-// HIGH CONTRAST MODE
-
 const contrastBtn = document.getElementById("contrastBtn");
 
 if (contrastBtn) {
@@ -18,8 +15,6 @@ if (contrastBtn) {
     document.body.classList.toggle("high-contrast");
   });
 }
-
-// PRODUCT SEARCH FILTER
 
 const searchInput = document.getElementById("searchInput");
 
@@ -47,8 +42,6 @@ if (searchInput) {
 
 }
 
-// CONTACT FORM VALIDATION
-
 const form = document.getElementById("contactForm");
 
 if (form) {
@@ -72,8 +65,6 @@ if (form) {
   });
 
 }
-
-// SCROLL ANIMATIONS
 
 const cards = document.querySelectorAll(".card");
 
@@ -108,8 +99,6 @@ if (menuToggle) {
   });
 }
 
-// HIGH CONTRAST MODE
-
 const contrastBtn = document.getElementById("contrastBtn");
 
 if (contrastBtn) {
@@ -117,8 +106,6 @@ if (contrastBtn) {
     document.body.classList.toggle("high-contrast");
   });
 }
-
-// PRODUCT SEARCH FILTER
 
 const searchInput = document.getElementById("searchInput");
 
@@ -146,8 +133,6 @@ if (searchInput) {
 
 }
 
-// CONTACT FORM VALIDATION
-
 const form = document.getElementById("contactForm");
 
 if (form) {
@@ -171,8 +156,6 @@ if (form) {
   });
 
 }
-
-// SCROLL ANIMATIONS
 
 const cards = document.querySelectorAll(".card");
 
