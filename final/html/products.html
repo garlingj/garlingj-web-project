@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - GreenTech</title>
+  <title>Products - GreenTech</title>
 
   <link rel="stylesheet" href="../css/styles.css">
 </head>
@@ -25,45 +25,34 @@
 </header>
 
 <section class="page-header">
-  <h2>Contact Us</h2>
+  <h2>Our Products</h2>
 </section>
 
-<section class="contact-container">
+<div class="search-container">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search products..."
+    aria-label="Search products"
+  >
+</div>
 
-  <div class="contact-info">
-    <p>Email: info@greentech.com</p>
-    <p>Phone: +1 (505) 123-4567</p>
-    <p>Address: 123 Green Street, Eco City, NM</p>
+<section class="card-container" id="productList">
+
+  <div class="card product-card">
+    <h3>Solar Grid</h3>
+    <p>Renewable energy platform for sustainable power.</p>
   </div>
 
-  <form id="contactForm">
+  <div class="card product-card">
+    <h3>Eco Sensors</h3>
+    <p>Environmental monitoring IoT sensors.</p>
+  </div>
 
-    <input
-      type="text"
-      id="name"
-      placeholder="Your Name"
-      required
-    >
-
-    <input
-      type="email"
-      id="email"
-      placeholder="Your Email"
-      required
-    >
-
-    <textarea
-      id="message"
-      rows="5"
-      placeholder="Your Message"
-      required
-    ></textarea>
-
-    <button type="submit" class="btn">
-      Send Message
-    </button>
-
-  </form>
+  <div class="card product-card">
+    <h3>Green AI Platform</h3>
+    <p>AI-driven climate and energy analytics.</p>
+  </div>
 
 </section>
 
